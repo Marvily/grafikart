@@ -17,7 +17,7 @@ $supplements = [
 ];
 
 
-require 'header.php';
+require 'elements/header.php';
 
 
 ?>
@@ -74,6 +74,7 @@ require 'header.php';
                         ?>
                         <ul>
                        <?= dataGlace($_POST,$bases)[0] ?? ""; ?>
+                            <hr>
                        <?= dataGlace($_POST,$bases)[1] ?? ""; ?>
                         </ul>
                         <?php
@@ -87,4 +88,4 @@ require 'header.php';
 
 
 </div>
-<?php require  'footer.php'?>
+<?php require 'elements/footer.php' ?>

@@ -16,7 +16,8 @@ function nav_menu(string $linkClass = ''):string{
     return
         nav_item('/grafikart/index.php', 'Accueil', $linkClass).
         nav_item('/grafikart/contact.php', 'Contact', $linkClass).
-        nav_item('/grafikart/jeu.php', 'Jeu', $linkClass);
+        nav_item('/grafikart/jeu.php', 'Jeu', $linkClass).
+        nav_item('/grafikart/menu.php', 'Menu', $linkClass);
 }
 
 function checkbox(array $valeurs, string $name, $methode){

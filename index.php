@@ -1,7 +1,7 @@
 <?php
 $title = "Page d'accueil";
 
-require 'header.php';
+require 'elements/header.php';
 ?>
 
     <div class="container">
@@ -10,4 +10,4 @@ require 'header.php';
         <p>Back to <a href="/docs/5.1/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
     </div>
 
-<?php require_once 'footer.php';?>
+<?php require_once 'elements/footer.php';?>

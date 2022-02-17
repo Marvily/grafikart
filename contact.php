@@ -1,7 +1,7 @@
 <?php
 $title = "Nous contacter";
-require_once 'config.php';
-require 'header.php';
+require_once 'data/config.php';
+require 'elements/header.php';
 $heureNow = (int)date("Gi");
 $semaine = date('N') -1;
 
@@ -54,4 +54,4 @@ $creneaux = creneaux_html(CRENEAUX, JOURS);
 
     </div>
 
-    <?php require 'footer.php';?>
+    <?php require 'elements/footer.php';?>
